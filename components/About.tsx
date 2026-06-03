@@ -32,8 +32,7 @@ export default function About() {
               <strong>
                 2nd at the Cerebral Valley AIE Code Agents Hackathon
               </strong>
-              . Before that, a karaoke app powered by Mozilla&apos;s
-              DeepSpeech.
+              . Before that, a cross-platform EPUB ereader in Go.
             </p>
             <p>
               I graduated from{' '}
