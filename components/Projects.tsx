@@ -33,7 +33,7 @@ const projects: Project[] = [
     title: 'ZReader — EPUB',
     titleEm: 'Ereader',
     year: 'October 2025',
-    desc: 'A cross-platform, keyboard-driven ereader in Go using the Gio UI toolkit, with a custom EPUB parser (container.xml, content.opf, and HTML chapters) and inline image rendering. Per-book reading history — chapter, page, and font size — persists across sessions, alongside chapter navigation by name, page reflow with scrolling, adjustable font scaling, and light/dark modes.',
+    desc: 'A cross-platform, keyboard-driven ereader in Go using the Gio UI toolkit, with a custom EPUB parser (container.xml, content.opf, and HTML chapters) and inline image rendering. Per-book reading history, chapter, page, and font size, persists across sessions, alongside chapter navigation by name, page reflow with scrolling, adjustable font scaling, and light/dark modes.',
     tags: ['Go', 'Gio', 'EPUB'],
   },
 ]
