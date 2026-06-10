@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="container">
         <SectionHead num="05" name="Contact" />
         <h2 className="section-title">
-          Let&apos;s build something <em>worth shipping</em>.
+          Got something in mind? <em>Let&apos;s talk</em>.
         </h2>
 
         <div className="contact-wrap">
