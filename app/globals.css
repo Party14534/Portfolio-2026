@@ -12,10 +12,10 @@
 
   --violet: #a78bfa;
   --cyan: #67e8f9;
-  --pink: #f0abfc;
-  --cream: #f5e6c8;
+  --lavender: #c7c4ff;
+  --indigo: #8b8bf5;
 
-  --grad-text: linear-gradient(135deg, #f5e6c8 0%, #ffffff 28%, #c7c4ff 58%, #67e8f9 100%);
+  --grad-text: linear-gradient(135deg, #c7c4ff 0%, #ffffff 32%, #a78bfa 62%, #67e8f9 100%);
   --grad-soft: linear-gradient(135deg, rgba(167, 139, 250, 0.4), rgba(103, 232, 249, 0.4));
 
   --font-sans: var(--font-sans-var), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -140,14 +140,14 @@ section > .container {
   content: '';
   width: 56px;
   height: 1px;
-  background: var(--cream);
+  background: var(--lavender);
   flex-shrink: 0;
 }
 
 .section-tag .num {
   font-size: 1.35rem;
   font-weight: 700;
-  color: var(--cream);
+  color: var(--lavender);
   letter-spacing: -0.01em;
 }
 
@@ -315,7 +315,7 @@ section > .container {
 .aurora-blob.b3 {
   width: 520px;
   height: 520px;
-  background: radial-gradient(circle at 50% 50%, var(--pink), transparent 62%);
+  background: radial-gradient(circle at 50% 50%, var(--indigo), transparent 62%);
   top: 28%;
   left: 38%;
   opacity: 0.32;
@@ -413,7 +413,7 @@ section > .container {
 
 .hero-tagline .accent {
   font-family: var(--font-mono);
-  color: var(--cream);
+  color: var(--lavender);
   font-size: 0.85em;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -641,13 +641,13 @@ section > .container {
 }
 
 .about-body a {
-  color: var(--cream);
-  border-bottom: 1px solid rgba(245, 230, 200, 0.3);
+  color: var(--lavender);
+  border-bottom: 1px solid rgba(199, 196, 255, 0.3);
   transition: border-color 0.2s;
 }
 
 .about-body a:hover {
-  border-bottom-color: var(--cream);
+  border-bottom-color: var(--lavender);
 }
 
 .about-body strong {
@@ -697,7 +697,7 @@ section > .container {
     135deg,
     rgba(167, 139, 250, 0.35) 0%,
     rgba(103, 232, 249, 0.08) 50%,
-    rgba(240, 171, 252, 0.35) 100%
+    rgba(139, 139, 245, 0.35) 100%
   );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -764,11 +764,11 @@ section > .container {
   border-radius: 9999px;
   background: linear-gradient(
     135deg,
-    rgba(245, 230, 200, 0.12),
+    rgba(199, 196, 255, 0.12),
     rgba(167, 139, 250, 0.12)
   );
-  border: 1px solid rgba(245, 230, 200, 0.25);
-  color: var(--cream);
+  border: 1px solid rgba(199, 196, 255, 0.25);
+  color: var(--lavender);
   font-size: 0.65rem;
   letter-spacing: 0.12em;
   width: max-content;
@@ -904,7 +904,7 @@ section > .container {
 
 .tl-role em {
   font-style: normal;
-  color: var(--cream);
+  color: var(--lavender);
   font-weight: 500;
 }
 
@@ -937,7 +937,7 @@ section > .container {
   top: 0.7rem;
   width: 12px;
   height: 1px;
-  background: var(--cream);
+  background: var(--lavender);
 }
 
 .resume-download {

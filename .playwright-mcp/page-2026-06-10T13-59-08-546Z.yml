@@ -1,0 +1,256 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Zachariah Dellimore · Home" [ref=e3] [cursor=pointer]:
+      - /url: "#top"
+      - text: Z·D
+    - generic [ref=e4]:
+      - link "01 About" [ref=e5] [cursor=pointer]:
+        - /url: "#about"
+        - generic [ref=e6]: "01"
+        - text: About
+      - link "02 Work" [ref=e7] [cursor=pointer]:
+        - /url: "#projects"
+        - generic [ref=e8]: "02"
+        - text: Work
+      - link "03 Toolkit" [ref=e9] [cursor=pointer]:
+        - /url: "#skills"
+        - generic [ref=e10]: "03"
+        - text: Toolkit
+      - link "04 Experience" [ref=e11] [cursor=pointer]:
+        - /url: "#resume"
+        - generic [ref=e12]: "04"
+        - text: Experience
+      - link "05 Contact" [ref=e13] [cursor=pointer]:
+        - /url: "#contact"
+        - generic [ref=e14]: "05"
+        - text: Contact
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Portfolio · 2026
+        - heading "Zachariah Dellimore." [level=1] [ref=e19]:
+          - text: Zachariah
+          - emphasis [ref=e20]: Dellimore
+          - text: .
+        - paragraph [ref=e21]: Software engineer at Telus Digital. Backend services, side projects, and performance testing.
+        - generic [ref=e22]:
+          - generic [ref=e23]: Open to interesting work
+          - generic [ref=e25]: Richmond, VA
+          - generic [ref=e26]: B.S. CS, VCU '25
+        - generic [ref=e27]:
+          - link "See the work ↓" [ref=e28] [cursor=pointer]:
+            - /url: "#projects"
+            - text: See the work
+            - generic [ref=e29]: ↓
+          - link "Get in touch →" [ref=e30] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Get in touch
+            - generic [ref=e31]: →
+      - generic [ref=e32]: Scroll
+    - generic [ref=e33]:
+      - text: "01"
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: "01"
+          - generic [ref=e37]: ·
+          - generic [ref=e38]: About
+        - generic [ref=e39]:
+          - paragraph [ref=e40]: I like building all types of software. A backend monitoring service. An AI agent that ships browser games. A Game Boy emulator that runs real ROMs. The medium changes; the work doesn't.
+          - generic [ref=e41]:
+            - paragraph [ref=e42]:
+              - text: I'm a software engineer at
+              - strong [ref=e43]: Telus Digital
+              - text: ", working on backend services for a customer-facing platform. The work shifts week to week: standing up a new service one sprint, digging into a slow query the next, sitting in on architecture decisions in between. I like that no two weeks look the same."
+            - paragraph [ref=e44]:
+              - text: Outside of work I build things that have nothing to do with my day job. Most recently, a Game Boy emulator in C++ that plays commercial ROMs. Before that, an AI agent that ships browser games end-to-end and took
+              - strong [ref=e45]: 2nd at the Cerebral Valley AIE Code Agents Hackathon
+              - text: . Before that, a cross-platform EPUB ereader in Go.
+            - paragraph [ref=e46]:
+              - text: I graduated from
+              - link "Virginia Commonwealth University" [ref=e47] [cursor=pointer]:
+                - /url: https://www.vcu.edu/
+              - text: with a B.S. in Computer Science, Magna Cum Laude, in May 2025. I live in Richmond, VA.
+    - generic [ref=e48]:
+      - text: "02"
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e51]: "02"
+          - generic [ref=e52]: ·
+          - generic [ref=e53]: Selected Work
+        - heading "Things I've built." [level=2] [ref=e54]:
+          - text: Things I've
+          - emphasis [ref=e55]: built
+          - text: .
+        - generic [ref=e56]:
+          - article [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: 001 / 003
+              - heading "Game Boy Emulator" [level=3] [ref=e60]:
+                - text: Game Boy
+                - emphasis [ref=e61]: Emulator
+              - generic [ref=e63]: January 2026
+            - generic [ref=e64]:
+              - paragraph [ref=e65]: A Game Boy emulator in C++ and SFML that plays commercial ROMs. Full CPU instruction set, graphics rendering, memory mapping, savestates with custom serialization, adjustable game speed, and a configurable UI. Validated against the cpu_instrs and dmg-acid2 hardware test ROMs and a GTest suite organized by instruction category.
+              - generic [ref=e66]:
+                - generic [ref=e67]: C++
+                - generic [ref=e68]: SFML
+                - generic [ref=e69]: CMake
+                - generic [ref=e70]: GTest
+          - article [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e73]: 002 / 003
+              - heading "AI Web Game Generator" [level=3] [ref=e74]:
+                - text: AI Web Game
+                - emphasis [ref=e75]: Generator
+              - generic [ref=e76]:
+                - generic [ref=e77]: November 2025
+                - generic [ref=e78]: ★ 2nd Overall · Cerebral Valley AIE Hackathon
+            - generic [ref=e79]:
+              - paragraph [ref=e80]: An autonomous agent that pulls game ideas off a queue and ships playable web games end-to-end. Claude writes the Phaser.js while Gemini generates the in-game art. FastAPI orchestrates the loop, a React/Vite frontend serves the games, all wired together with Docker Compose. Two-person team.
+              - generic [ref=e81]:
+                - generic [ref=e82]: Python
+                - generic [ref=e83]: FastAPI
+                - generic [ref=e84]: React
+                - generic [ref=e85]: Phaser.js
+                - generic [ref=e86]: Claude
+                - generic [ref=e87]: Gemini
+                - generic [ref=e88]: Docker
+          - article [ref=e89]:
+            - generic [ref=e90]:
+              - generic [ref=e91]: 003 / 003
+              - heading "ZReader — EPUB Ereader" [level=3] [ref=e92]:
+                - text: ZReader — EPUB
+                - emphasis [ref=e93]: Ereader
+              - generic [ref=e95]: October 2025
+            - generic [ref=e96]:
+              - paragraph [ref=e97]: A cross-platform, keyboard-driven ereader in Go using the Gio UI toolkit, with a custom EPUB parser (container.xml, content.opf, and HTML chapters) and inline image rendering. Per-book reading history, chapter, page, and font size, persists across sessions, alongside chapter navigation by name, page reflow with scrolling, adjustable font scaling, and light/dark modes.
+              - generic [ref=e98]:
+                - generic [ref=e99]: Go
+                - generic [ref=e100]: Gio
+                - generic [ref=e101]: EPUB
+    - generic [ref=e102]:
+      - text: "03"
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e105]: "03"
+          - generic [ref=e106]: ·
+          - generic [ref=e107]: Toolkit
+        - heading "What I reach for." [level=2] [ref=e108]:
+          - text: What I reach
+          - emphasis [ref=e109]: for
+          - text: .
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Languages
+            - list [ref=e113]:
+              - listitem [ref=e114]: C++ ·
+              - listitem [ref=e115]: C ·
+              - listitem [ref=e116]: Go ·
+              - listitem [ref=e117]: C# ·
+              - listitem [ref=e118]: Java ·
+              - listitem [ref=e119]: Python ·
+              - listitem [ref=e120]: TypeScript ·
+              - listitem [ref=e121]: JavaScript ·
+              - listitem [ref=e122]: Kotlin ·
+              - listitem [ref=e123]: SQL ·
+              - listitem [ref=e124]: GLSL ·
+              - listitem [ref=e125]: MATLAB
+          - generic [ref=e126]:
+            - generic [ref=e127]: Frameworks
+            - list [ref=e128]:
+              - listitem [ref=e129]: .NET ·
+              - listitem [ref=e130]: Spring Boot ·
+              - listitem [ref=e131]: FastAPI ·
+              - listitem [ref=e132]: Node.js ·
+              - listitem [ref=e133]: Gin ·
+              - listitem [ref=e134]: React ·
+              - listitem [ref=e135]: Next.js ·
+              - listitem [ref=e136]: Tailwind ·
+              - listitem [ref=e137]: Jetpack Compose
+          - generic [ref=e138]:
+            - generic [ref=e139]: Cloud & Tooling
+            - list [ref=e140]:
+              - listitem [ref=e141]: Google Cloud ·
+              - listitem [ref=e142]: Azure ·
+              - listitem [ref=e143]: AWS ·
+              - listitem [ref=e144]: Docker ·
+              - listitem [ref=e145]: Terraform ·
+              - listitem [ref=e146]: Git ·
+              - listitem [ref=e147]: CMake ·
+              - listitem [ref=e148]: JUnit ·
+              - listitem [ref=e149]: GTest ·
+              - listitem [ref=e150]: Claude Code ·
+              - listitem [ref=e151]: Codex
+    - generic [ref=e152]:
+      - text: "04"
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - generic [ref=e155]: "04"
+          - generic [ref=e156]: ·
+          - generic [ref=e157]: Experience
+        - heading "A short history." [level=2] [ref=e158]:
+          - text: A short
+          - emphasis [ref=e159]: history
+          - text: .
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - generic [ref=e162]: Sep 2025 to Present
+            - generic [ref=e163]:
+              - heading "Software Engineer" [level=3] [ref=e164]
+              - generic [ref=e165]: Telus Digital · Charlottesville, VA
+              - list [ref=e166]:
+                - listitem [ref=e167]: Designed and built a Spring Boot service on GKE that monitors a production data pipeline end-to-end (Pub/Sub, BigQuery, GCS, Datastore), with chat alerting on missed file arrivals and SLA breaches. Replaced 30+ min of daily manual checks; cut incident recovery from hours to minutes.
+                - listitem [ref=e168]: "Drove a performance push across a high-traffic API: brought two hot endpoints from 2.5s to 600ms and 2s to 50ms, prototyped a schema redesign that tested at 5–10× on the worst cases, and co-presented the patterns we developed to the broader engineering org."
+                - listitem [ref=e169]: Supported the Talent Program through career fair interviews and intern onboarding.
+          - generic [ref=e170]:
+            - generic [ref=e171]: May to Aug 2024
+            - generic [ref=e172]:
+              - heading "Return Software Engineer Intern" [level=3] [ref=e173]
+              - generic [ref=e174]: WillowTree · Charlottesville, VA
+              - list [ref=e175]:
+                - listitem [ref=e176]: Shipped three new .NET REST API endpoints expanding client reporting data, plus enhancements to existing endpoints to improve availability of critical reporting.
+                - listitem [ref=e177]: Used Azure Service Bus to efficiently transfer and replicate data between micro-services and their databases.
+                - listitem [ref=e178]: Added authorization guards to close a security gap; led two client-facing demos showcasing new backend features.
+          - generic [ref=e179]:
+            - generic [ref=e180]: Aug 2021 to May 2025
+            - generic [ref=e181]:
+              - heading "B.S. Computer Science" [level=3] [ref=e182]
+              - generic [ref=e183]: Virginia Commonwealth University · Magna Cum Laude · GPA 3.89
+              - list [ref=e184]:
+                - listitem [ref=e185]: Dean's List, 6 semesters.
+        - link "Download full resume ↓" [ref=e187] [cursor=pointer]:
+          - /url: /resume.pdf
+          - text: Download full resume
+          - generic [ref=e188]: ↓
+    - generic [ref=e189]:
+      - text: "05"
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - generic [ref=e192]: "05"
+          - generic [ref=e193]: ·
+          - generic [ref=e194]: Contact
+        - heading "Let's build something worth shipping." [level=2] [ref=e195]:
+          - text: Let's build something
+          - emphasis [ref=e196]: worth shipping
+          - text: .
+        - generic [ref=e197]:
+          - link "zachariahdellimore03@gmail.com" [ref=e198] [cursor=pointer]:
+            - /url: mailto:zachariahdellimore03@gmail.com
+          - generic [ref=e199]:
+            - link "01 LinkedIn ↗" [ref=e200] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/zachariah-dellimore/
+              - generic [ref=e201]: "01"
+              - text: LinkedIn
+              - generic [ref=e202]: ↗
+            - link "02 GitHub ↗" [ref=e203] [cursor=pointer]:
+              - /url: https://github.com/Party14534
+              - generic [ref=e204]: "02"
+              - text: GitHub
+              - generic [ref=e205]: ↗
+  - contentinfo [ref=e206]:
+    - generic [ref=e207]: © 2026 Zachariah Dellimore
+    - generic [ref=e208]:
+      - text: Richmond, VA · Built with
+      - link "Next.js" [ref=e209] [cursor=pointer]:
+        - /url: https://nextjs.org
+  - alert [ref=e210]
